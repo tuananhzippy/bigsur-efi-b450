@@ -1,18 +1,18 @@
-# AMD Ryzen Hackintosh - Opencore EFI for MSI B450 Mortar Max
+# AMD Ryzen Hackintosh - Opencore EFI for Asus Prime B450M-II
 
 
 ## Specification
 | **Component** | **Model** |
 | ------------- | --------- |
-| CPU | AMD Ryzen 7 3700x @ 3.6GHz |
-| Motherboard |  MSI B450 Mortar Max |
-| RAM | 16GB (2 x 8GB) G.Skill Ripjaws @ 3200MHz |
+| CPU | AMD Ryzen 3 1200 @ 3.1GHz |
+| Motherboard |  Asus B450M-II Prime |
+| RAM | 16GB (2 x 8GB) Kingston Fuzy @ 3200MHz |
 | Audio Chipset | Realtek® ALC892/ALC897 Codec |
-| GPU | ASUS GT710 |
-| Ethernet | Realtek® RTL8111H-CG |
+| GPU | Gigabyte AMD RX460 |
+| Ethernet | Realtek® RTL8111H |
 | WiFi | TL-WN823N |
 | Bluetooth | TPLink UB400 |
-| OS Disk (NVME) | Kingston 500 GB  |
+| OS Disk (NVME) | Kingston NV1(MVME) 256GB  |
 
 **macOS version**: 11.4   
 
@@ -25,6 +25,7 @@
 ## Drivers & Kexts
  - [[Bootloader] OpenCore](https://github.com/acidanthera/OpenCorePkg)
  - [[Patch] AMD_Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
+ - [[Kext] AppleALC](https://github.com/acidanthera/AppleALC)
  - [[Driver] OpenRunTime](https://github.com/acidanthera/OpenCorePkg)
  - [[Driver] HfsPlus](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
  - [[Driver] OpenCanopy](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html)
